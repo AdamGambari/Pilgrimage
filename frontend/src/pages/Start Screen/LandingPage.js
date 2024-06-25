@@ -23,7 +23,7 @@ const LandingPage = () => {
       <div className="features" id="features">
         <div className="feature-item">
           <h2>Duas and How to do your Tawwaf!</h2>
-          <img src="praying-hands.png" alt="Duas" />
+          <img src="praying-hand.png" alt="Duas" />
         </div>
         <div className="feature-item">
           <h2>Guidance on where to go</h2>
