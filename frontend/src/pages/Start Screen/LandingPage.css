@@ -34,11 +34,6 @@
   margin-bottom: 30px;
 }
 
-.kaaba-image {
-  width: 150px;
-  height: auto;
-}
-
 .header h1 {
   font-size: 36px;
   margin: 10px 0;
@@ -59,31 +54,154 @@
   font-size: 16px;
 }
 
-.features {
+.kaaba {
+  background-color: #cdcfcd00;
+  display: flex;
+  color: white;
+  width: 70;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 10px;
+  text-align: center;
+  max-width:500px;
+  margin: 1px;
+  font-size: 12px;
+
+}
+
+.kaaba img {
+  width: 20;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 90px;
+  text-align: center;
+  max-width:370px;
+  margin: 1px;
+  font-size: 12px;
+
+}
+
+.guide-pan {
+  background-color: #cdcfcd00;
+  color: white;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.feature-item {
-  background-color: #cdcfcd49;
-  padding: 20px;
+margin-right: 60px ;
+  padding: 2px;
   border-radius: 10px;
-  text-align: center;
-  max-width: 300px;
-  margin: 10px;
-}
-
-.feature-item h2 {
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-.feature-item img {
-  width: 100px;
+  text-align: right;
+  max-width:550px;
+  font-size: 11px;
   height: auto;
 }
+
+.guide-pan img {
+  width: 60;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 100px;
+  max-width:400px;
+  margin: 1px;
+  font-size: 12px;
+
+}
+
+.guide-mark {
+  background-color: #cdcfcd00;
+  display: flex;
+  color: white;
+  width: 70;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 10px;
+  text-align: center right;
+  max-width:60px;
+  margin: 1px;
+  font-size: 12px;
+
+}
+
+.guide-mark img {
+  width: 60;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  margin-right: 500px;
+  margin-bottom: 500px;
+  text-align: right;
+  max-width:600px;
+  margin: 1px;
+  font-size: 12px;
+
+}
+
+.praying {
+  background-color: #cdcfcd00;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 10px;
+  text-align: center;
+  max-width:550px;
+  margin: 1px;
+  font-size: 12px;
+  height: auto;
+
+}
+
+.praying img {
+  width: 60;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 100px;
+  text-align: center;
+  max-width:350px;
+  margin: 1px;
+  font-size: 12px;
+
+}
+
+
+.pin-point {
+  background-color: #cdcfcd00;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 10px;
+  text-align: center;
+  max-width:550px;
+  margin-top: 12;
+  margin-right: 500;
+  font-size: 11px;
+  height: auto;
+}
+
+.pin-point img {
+  width: 30;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 100px;
+  text-align: center;
+  max-width:300px;
+  margin: 1px;
+  font-size: 12px;
+
+}
+
 
 .login {
   background-color: #d2b48c;
