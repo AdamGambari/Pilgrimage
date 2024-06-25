@@ -11,7 +11,7 @@ const LandingPage = () => {
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#login">Login</a></li>
-          <li><a href="#signup">Signup</a></li>
+          <li><a href="#signup">Sign Up</a></li>
         </ul>
       </nav>
       <div className="header" id="home">
@@ -27,7 +27,7 @@ const LandingPage = () => {
         </div>
         <div className="feature-item">
           <h2>Guidance on where to go</h2>
-          <img src="path_to_guidance_image" alt="Guidance" />
+          <img src="guide-panflip.png" alt="Guidance" />
         </div>
         <div className="feature-item">
           <h2>Real-time location to Masjids near you and Groups!</h2>
