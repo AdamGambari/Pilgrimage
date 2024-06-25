@@ -12,9 +12,13 @@ const LandingPage = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
 
+  
         <div className="login">
-        <p>Already Signed Up?</p>
         <button className="login-button">Login</button>
+      </div>
+
+      <div className="alr">
+        <p>Already Signed Up?</p>
       </div>
 
       </nav>
