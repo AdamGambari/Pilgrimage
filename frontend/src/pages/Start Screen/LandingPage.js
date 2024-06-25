@@ -10,9 +10,13 @@ const LandingPage = () => {
           <li><a href="#features">Features</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#login">Login</a></li>
-          <li><a href="#signup">Sign Up</a></li>
         </ul>
+
+        <div className="login">
+        <p>Already Signed Up?</p>
+        <button className="login-button">Login</button>
+      </div>
+
       </nav>
 
       <div className="kaaba" id="kaaba">
@@ -50,10 +54,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="login">
-        <p>Already Signed Up?</p>
-        <button className="login-button">Login</button>
-      </div>
     </div>
   );
 };
