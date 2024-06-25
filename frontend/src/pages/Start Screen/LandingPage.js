@@ -40,13 +40,13 @@ const LandingPage = () => {
     
       <div className="praying-hand" id="praying-hand">
         <div className="praying">
-          <h2>Duas and How to do your Tawwaf!</h2>
           <img src="praying-hand.png" alt="Duas" />
+          <h2>Duas and How to do your Tawwaf!</h2>
         </div>
 
         <div className="pin-point">
-          <h2>Real-time location to Masjids near you and Groups!</h2>
           <img src="pin-point.png" alt="RealTimeLocation" />
+          <h2>Real-time location to Masjids near you and Groups!</h2>
         </div>
       </div>
 

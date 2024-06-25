@@ -83,63 +83,63 @@
   font-size: 12px;
 
 }
-
 .guide-pan {
   background-color: #cdcfcd00;
   color: white;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-margin-right: 60px ;
+  margin-right: 60px;
+  margin-left: auto; /* This will push the container to the right */
   padding: 2px;
   border-radius: 10px;
   text-align: right;
-  max-width:550px;
+  max-width: 650px;
   font-size: 11px;
   height: auto;
 }
 
 .guide-pan img {
-  width: 60;
+  width: 299px; /* Added unit for width */
+  height:209px;
   flex-wrap: wrap;
-  margin-top: 2px;
+  margin-top: 10px;
   padding: 2px;
   border-radius: 100px;
-  max-width:400px;
-  margin: 1px;
+  max-width: 400px;
+  margin: -270px;
   font-size: 12px;
-
 }
 
 .guide-mark {
   background-color: #cdcfcd00;
   display: flex;
   color: white;
-  width: 70;
-  justify-content: space-around;
+  width: 70px; /* Added unit for width */
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center; /* Center items vertically */
   flex-wrap: wrap;
   margin-top: 2px;
+  margin-left: auto; /* Push the element to the right */
+  margin-right: auto; /* Center the element horizontally */
   padding: 2px;
   border-radius: 10px;
-  text-align: center right;
-  max-width:60px;
-  margin: 1px;
+  text-align: right;
+  max-width: 60px;
   font-size: 12px;
-
 }
 
 .guide-mark img {
-  width: 60;
+  width: 60px; /* Added unit for width */
   flex-wrap: wrap;
   margin-top: 2px;
-  margin-right: 500px;
-  margin-bottom: 500px;
-  text-align: right;
-  max-width:600px;
+  padding: 2px;
+  border-radius: 100px;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
   margin: 1px;
   font-size: 12px;
-
 }
+
 
 .praying {
   background-color: #cdcfcd00;
@@ -173,18 +173,17 @@ margin-right: 60px ;
 
 
 .pin-point {
-  background-color: #cdcfcd00;
-  display: flex;
+ background-color: #cdcfcd00;
   color: white;
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 2px;
+  margin-right: 60px;
+  margin-left: auto; /* This will push the container to the right */
   padding: 2px;
   border-radius: 10px;
-  text-align: center;
-  max-width:550px;
-  margin-top: 12;
-  margin-right: 500;
+  text-align: right;
+  max-width: 650px;
   font-size: 11px;
   height: auto;
 }
@@ -196,10 +195,9 @@ margin-right: 60px ;
   padding: 2px;
   border-radius: 100px;
   text-align: center;
-  max-width:300px;
-  margin: 1px;
+  max-width:200px;
+  margin: -100px;
   font-size: 12px;
-
 }
 
 
